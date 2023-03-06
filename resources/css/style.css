@@ -63,3 +63,34 @@
     }
 }
 
+/* Sezione Principale */
+.bg-image {
+    background-image: url('/resources/media/brooke-lark-08bOYnH_r_E-unsplash.jpg');
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.btn-welcome {
+    border: 2px solid var(--mainColor);
+    color: var(--mainColor);
+    
+}
+
+.btn-welcome:hover {
+    border: 2px solid var(--mainColor);
+    background-color: var(--mainColor);
+    color: white;
+    
+}
+
+/*  Mobile Device  */
+
+@media screen and (max-width: 700px) {
+    .bg-image{
+        height: 80vh;
+        background-position: 50%;
+    }
+    
+}

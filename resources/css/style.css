@@ -14,3 +14,52 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/*  Navbar */
+.logo {
+    width: 80px;
+}
+
+.nav-link{
+    color: var(--mainColor);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--secColor);
+}
+
+.btn-left {
+    background-color: var(--secColor);
+    color: white;
+
+}
+
+.btn-left:hover {
+    background-color: white;
+    color: var(--secColor);
+    border: 1px solid var(--secColor);
+    transition: 1s;
+}
+
+
+.btn-right {
+    background-color: var(--accColor);
+    color: white;
+
+}
+
+.btn-right:hover {
+    background-color: white;
+    color: var(--accColor);
+    border: 1px solid var(--accColor);
+    transition: 1s;
+}
+
+/* iphone 5 */
+@media screen and (max-width: 330px){
+    .btn-left,
+    .btn-right {
+        font-size: 0.8rem;
+    }
+}
+

@@ -93,7 +93,7 @@
 
 .bg-image {
     /* The image used */
-    background-image: url("/resources/media/sfondomain.jpg");
+    background-image: url("./resources/media/sfondomain");
   
     /* Set a specific height */
     min-height: 40vh;

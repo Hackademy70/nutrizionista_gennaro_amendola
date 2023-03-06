@@ -1,7 +1,16 @@
-h1 {
-    background-color: black;
+/* Palette Colori:
+    - orange
+    - green
+    
+*/
+:root {
+    --mainColor: green;
+    --secColor: rgb(71, 247, 71);
+    --accColor: orange;
 }
+
 
 *{
     font-family: 'Poppins', sans-serif;
 }
+

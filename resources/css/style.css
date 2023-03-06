@@ -17,7 +17,7 @@
 
 /*  Navbar */
 .logo {
-    width: 80px;
+    width: 100px;
 }
 
 .bg-body-tertiary{
@@ -64,9 +64,13 @@
     transition: 1s;
 }
 
-.bottone-prev,
-.bottone-next{
-    width: 200px !important;
+
+/* Main */
+.main-description{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 60vh;
 }
 
 /* iphone 5 */
@@ -78,13 +82,28 @@
 }
 
 /* Sezione Principale */
-.bg-image {
+
+/* .bg-image {
     background-image: url('/resources/media/sfondomain.jpg');
     height: 40vh;
     background-size: cover;
     background-repeat: no-repeat;
 
-}
+} */
+
+.bg-image {
+    /* The image used */
+    background-image: url("/resources/media/sfondomain.jpg");
+  
+    /* Set a specific height */
+    min-height: 40vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 .btn-welcome {
     border: 2px solid var(--mainColor);
